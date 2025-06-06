@@ -22,6 +22,7 @@ clang --version
 ### 正常编译：
 ```bash
 cd tutorial_demo
+mkdir build
 clang demo.c -o ./build/demo
 ./build/demo
 ```
