@@ -40,7 +40,7 @@ GlobalVar: 5
 
 <details> 
 <summary> IDA:</summary>
-<img src="https://github.com/rondorondocat/ollvm-project/blob/main/tutorial_demo/res/demo.png"/>
+<img src="https://github.com/rondorondocat/ollvm-project/blob/master/tutorial_demo/res/demo.png"/>
 </details>
 
 
@@ -53,7 +53,7 @@ clang -mllvm -fla demo.c -o ./build/FLA
 
 <details> 
 <summary> IDA:</summary>
-<img src="https://github.com/rondorondocat/ollvm-project/blob/main/tutorial_demo/res/FLA.png"/>
+<img src="https://github.com/rondorondocat/ollvm-project/blob/master/tutorial_demo/res/FLA.png"/>
 </details>
 
 ### 2.虚假控制流(BCF):
@@ -64,7 +64,7 @@ clang -mllvm -bcf -mllvm -bcf_prob=50 -mllvm -bcf_loop=3 demo.c -o ./build/BCF
 
 <details> 
 <summary> IDA:</summary>
-<img src="https://github.com/rondorondocat/ollvm-project/blob/main/tutorial_demo/res/BCF.png"/>
+<img src="https://github.com/rondorondocat/ollvm-project/blob/master/tutorial_demo/res/BCF.png"/>
 </details>
 
 ### 3.指令替换(SUB):
@@ -76,7 +76,7 @@ clang -mllvm -sub -mllvm -sub_loop=2 demo.c -o ./build/SUB
 
 <details> 
 <summary> IDA:</summary>
-<img src="https://github.com/rondorondocat/ollvm-project/blob/main/tutorial_demo/res/SUB.png"/>
+<img src="https://github.com/rondorondocat/ollvm-project/blob/master/tutorial_demo/res/SUB.png"/>
 </details>
 
 ### 4.字符串混淆(SOBF): 
@@ -87,7 +87,7 @@ clang -mllvm -sobf demo.c -o ./build/SOBF
 
 <details> 
 <summary> IDA:</summary>
-<img src="https://github.com/rondorondocat/ollvm-project/blob/main/tutorial_demo/res/SOBF.png"/>
+<img src="https://github.com/rondorondocat/ollvm-project/blob/master/tutorial_demo/res/SOBF.png"/>
 </details>
 
 ### 5.基本块分割(SPLIT):
@@ -97,7 +97,7 @@ clang -mllvm -split -mllvm -split_num=5 demo.c -o ./build/SPLIT
 ``` 
 <details> 
 <summary> IDA:</summary>
-<img src="https://github.com/rondorondocat/ollvm-project/blob/main/tutorial_demo/res/SPLIT.png"/>
+<img src="https://github.com/rondorondocat/ollvm-project/blob/master/tutorial_demo/res/SPLIT.png"/>
 </details>
 
 ### 6.间接分支(IBR):
@@ -108,7 +108,7 @@ clang -mllvm -ibr demo.c -o ./build/IBR
 
 <details> 
 <summary> IDA:</summary>
-<img src="https://github.com/rondorondocat/ollvm-project/blob/main/tutorial_demo/res/IBR.png"/>
+<img src="https://github.com/rondorondocat/ollvm-project/blob/master/tutorial_demo/res/IBR.png"/>
 </details>
 
 ### 7.间接调用(ICALL):
@@ -119,7 +119,7 @@ clang -mllvm -icall demo.c -o ./build/ICALL
 
 <details> 
 <summary> IDA:</summary>
-<img src="https://github.com/rondorondocat/ollvm-project/blob/main/tutorial_demo/res/ICALL.png"/>
+<img src="https://github.com/rondorondocat/ollvm-project/blob/master/tutorial_demo/res/ICALL.png"/>
 </details>
 
 ### 8.间接全局变量():
@@ -130,7 +130,7 @@ clang -mllvm -igv demo.c -o ./build/IGV
 
 <details> 
 <summary> IDA:</summary>
-<img src="https://github.com/rondorondocat/ollvm-project/blob/main/tutorial_demo/res/IGV.png"/>
+<img src="https://github.com/rondorondocat/ollvm-project/blob/master/tutorial_demo/res/IGV.png"/>
 </details>
 
 ### 9.Annotate:
@@ -141,7 +141,7 @@ clang annotate.c -o ./build/Annotate
 
 <details> 
 <summary> IDA:</summary>
-<img src="https://github.com/rondorondocat/ollvm-project/blob/main/tutorial_demo/res/Annotate.png"/>
+<img src="https://github.com/rondorondocat/ollvm-project/blob/master/tutorial_demo/res/Annotate.png"/>
 </details>
 
 ## 参考与引用
