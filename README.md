@@ -1,7 +1,17 @@
 # The OLLVM patch for LLVM Project
 
 ## 前言
-目前已适配19.1.7 Release,之后会跟随llvm-project主线大版本更新
+<summary>这个项目致力于提供最新版本的完整功能的ollvm支持</summary>
+<summary>目前已适配19.1.7 Release,之后会跟随llvm-project主线大版本更新</summary>
+
+## 捐赠
+
+
+<summary>如你所见，ollvm官方的llvm版本一直停留在llvm 4.0</summary>
+<summary>维护新版本的代码是一件劳形苦心的事情，需要长期的人力投入</summary>
+<summary>如果这个项目有帮助到你，可以考虑请我喝杯咖啡</summary>
+<img src="https://github.com/rondorondocat/ollvm-project/blob/master/tutorial_demo/res/paymecoffee.jpg"/>
+
 
 ## 编译与安装
 
